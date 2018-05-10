@@ -31,6 +31,7 @@ public class Calculator {
 					break;
 				default:
 					System.out.println("Invalid operator");
+					break;
 			}
 		}
 		return finalAnswer;
@@ -58,6 +59,7 @@ public class Calculator {
 				break;
 			default:
 				System.out.println("Invalid operator");
+				break;
 		}
 		return finalAnswer;
 		

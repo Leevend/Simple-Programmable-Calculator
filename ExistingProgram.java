@@ -42,7 +42,8 @@ public class ExistingProgram {
 
 	//Method 3 under ExistingProgram class: Requests for new base operand(s) to try with existing program
 	public void newBaseOperandCalculate() {
-		double baseOperand, finalAnswer;
+		double baseOperand;
+		double finalAnswer;
 		System.out.print("Would you like to try the same program with another base operand? Y/N ");
 		
 		while(this.scanInput.scanBoolInput()) {  //Looping to allow user to try with other base operands on programmed operation
